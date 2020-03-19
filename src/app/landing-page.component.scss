@@ -1,0 +1,17 @@
+#imageLanding {
+    background-image: url("../assets/wallpaper-programmer-portfolio.jpg");
+    min-height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    .navbar {
+        background-color: rgba(255, 255, 255, 0.6) !important;
+    }
+    .navbar-light .navbar-nav .nav-link {
+        color: white;
+        font-weight: 800;
+        letter-spacing: 2px;
+    }
+    .show {
+        transition: 2s all ease;
+    }
+}

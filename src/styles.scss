@@ -1,3 +1,22 @@
 /* You can add global styles to this file, and also import other style files */
 
 @import '~bootstrap/dist/css/bootstrap.min.css';
+@font-face {
+    font-family: principalFont;
+    src: url('./assets/Poppins-Regular.ttf');
+}
+
+p,
+a,
+h1,
+h2,
+h3,
+h4,
+h5,
+small,
+span,
+table,
+td,
+th {
+    font-family: principalFont;
+}

@@ -1,7 +1,19 @@
-<div class="row">
+<div class="row" id="imageLanding">
+
     <div class="col-12">
-        <h5>Teste de Landing Page</h5>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <button class="navbar-toggler" type="button" (click)="showNavBar()">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavToShow" [ngClass]="{ 'show': navbarOpen }">
+                <div class="navbar-nav">
+                    <a class="nav-item nav-link active" href="/landing-page">HOME</a>
+                    <a class="nav-item nav-link">PROJECTS</a>
+                </div>
+            </div>
+        </nav>
     </div>
+
 </div>
 
 <app-footer></app-footer>
